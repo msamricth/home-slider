@@ -1,0 +1,79 @@
+
+/**
+ * This is free and unencumbered software released into the public domain.
+
+ * Anyone is free to copy, modify, publish, use, compile, sell, or
+ * distribute this software, either in source code form or as a compiled
+ * binary, for any purpose, commercial or non-commercial, and by any
+ * means.
+*/
+
+/**
+ * In jurisdictions that recognize copyright laws, the author or authors
+ * of this software dedicate any and all copyright interest in the
+ * software to the public domain. We make this dedication for the benefit
+ * of the public at large and to the detriment of our heirs and
+ * successors. We intend this dedication to be an overt act of
+ * relinquishment in perpetuity of all present and future rights to this
+ * software under copyright law.
+*/
+
+/**
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/**
+ * For more information, please refer to <http://unlicense.org>
+*/
+.featured-img {
+    padding-top: 25px;
+    height: 100vh;
+}
+
+@media (max-width: 767px) {
+
+    .primary-caption {
+        position: absolute;
+        bottom: 20%;
+        z-index: 10;
+    }
+}
+
+.primary-caption h3, .primary-caption p {
+    color: white;
+}
+.primary-caption {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+ }
+ @media (min-width: 767px) {
+     .primary-caption {
+        text-align: left;
+     }
+ }
+
+a.btn.btn-primaryt {}
+.panel-primary {
+    border-color:#56346b;
+}
+
+.panel-primary .panel-heading {
+    border-color:#56346b;
+    background-color: #603d7f;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#603d7f+0,56346b+99 */
+    background: #603d7f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #603d7f 0%, #56346b 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #603d7f 0%,#56346b 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #603d7f 0%,#56346b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603d7f', endColorstr='#56346b',GradientType=0 ); /* IE6-9 */
+
+}
